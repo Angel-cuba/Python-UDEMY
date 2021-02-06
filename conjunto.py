@@ -1,0 +1,10 @@
+conjunto = set()
+conjunto = {2, "Python", 1.2, 55, "Hola Angel", True, 40}
+print(conjunto)
+conjunto.add(123)
+print("Este es con el .add: ", conjunto)
+conjunto.discard(55)
+print("Este es con el .discard: ", conjunto)
+# conjunto.clear()
+# print("Este es el .clear: ",conjunto)
+print(40 not in conjunto)
