@@ -5,12 +5,13 @@ infinito("Angel", 20, 10.4, [1,2,3])
 
 
 #############
+
 def infinito(*args):
             for args in args:                            
               print(args)
 
 infinito("Angel", 20, 10.4, [1,2,3])    
-########___LISTA___###########
+#########___LISTA___###########
 def infinito(**kwargs):
               print(kwargs)
 
