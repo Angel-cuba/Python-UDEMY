@@ -4,7 +4,7 @@ try:
     c/0
 
 except ValueError:
-          print("Mistake, ")
+          print("Mistake, u ca use a string")
 except Exception as c:
            print(type(c).__name__)
           

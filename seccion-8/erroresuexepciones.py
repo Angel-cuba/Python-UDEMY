@@ -13,6 +13,7 @@ def dividir(num1, num2):
           except ZeroDivisionError:
                     print("Cant choose 0")
                     return "Invalid"
+#Funciona EXCEPT pero si pongo primero un 0 y después # sigue con el programa
 op1 = int(input("Introduce el primer valor: "))
 op2 = int(input("Introduce el segundo valor: "))
 
