@@ -1,4 +1,5 @@
 #Clases y Objetos
+import pickle
 class Gelato():
           def __init__(self, sabor, color, volumen):
                         self.sabor = sabor
@@ -38,3 +39,13 @@ persona3 = Persona("Angel", 36, "masculino")
 persona1.datosPersonales()
 persona2.datosPersonales()
 persona3.datosPersonales()
+
+listaPersona = [persona1, persona2, persona3]
+
+fichero = open("Personas", "wb")
+pickle.dump(listaPersona, fichero)
+
+fichero.close()
+
+del (fichero)
+
