@@ -1,0 +1,31 @@
+TODO....En todos los archivos se usa la libreria {TKINTER}
+TODO:Button
+Simple cálculo de suma y resta usando simples funciones.
+
+TODO:Calculadora
+calculadora completamente funcional, con todos sus botones y las funciones de suma, resta, dividir y Multiplicar
+
+FIXME: Checkbutton
+No funciona porque no se puede cargar las imágenes, la cuales deberian ser .ico.
+CHEKEAR 
+
+TODO: Entry
+En este archivo solo hay dos entradas de escritura, como para poder usar el usuario y el password.
+Pero no tienen nada funcional
+
+FIXME: interfaz.py, interfaz1.py y label.py 
+Todo bien pero lo que no funciona es cuando se carga las imágenes 
+
+TODO: Menu.py 
+Simple ventana con su Menu en la parte superior donde se muestran algunos comandos. Se definen las funciones 
+en la parte superior del código y con 'command' se pone al final de la linea. 
+
+TODO: Popups.py
+Ventana la cual abre un archivo o va dirigido a abrir una carpeta o, en este caso, se
+abre el D: de mi Pc.
+
+TODO: RadioButtons.py
+Simple Checkbox con dos RadioButtons.
+
+TODO: Text.py
+Cuadro de escritura.
