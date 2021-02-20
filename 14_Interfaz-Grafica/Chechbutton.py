@@ -11,9 +11,7 @@ def elegir():
               imprimir.config(text=elegir)                            
                             
               if flores.get() ==1 and aves.get() ==1 and frutas.get() ==1:
-                        elegir+="""
-                                        Has elegido todo
-                                        """
+                        elegir+="""Has elegido todo"""
 
 
 
