@@ -6,7 +6,7 @@ imagen = PhotoImage(file="tiger.ico")
 label = Label(root, image= imagen)
 
 
-"""
+
 text_new = StringVar()
 text_new.set("Programing")
 
@@ -25,7 +25,7 @@ label = Label(root, text="Welcome")
 # label.pack()
 label.place(x=250, y=100)
 label.config(bg="green",textvariable= text_new)
-"""
+
 
 
 root.mainloop()
