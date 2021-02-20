@@ -1,5 +1,6 @@
 from tkinter import *
 
+#variable que def el lugar de los números 
 i = 0
 #Aqui se declararan las funciones
 def click(valor):
@@ -7,12 +8,14 @@ def click(valor):
           entry.insert(i, valor)
           i+= 1
 
+#Función de BORRAR 
 def delete():
               entry.delete(0, END)
               i=0
 
 
 #Operaciones matemáticas 
+#Esta es la funcion que define las operaciones
 def calculo():
               number = entry.get()
               resultado = eval(number)
@@ -20,17 +23,22 @@ def calculo():
               entry.insert(0, resultado)
               i=0
 
+
+#Interfaz gráfica de la calculadora
 root= Tk()
 root.title("Calculator")
 root.config(bg="gray")
 
 
+#Esta es la ventana de la entrada de numeros
 entry = Entry(root,font=("Curier 20"))
 entry.grid(row=0, column=0, columnspan=4, padx=5, pady=5)
 
 
 
-
+#Botones, a los cuales, desde aqui, se les define ciertas característica 
+#*******Cada boton con su valor********
+#Con __command=lambda:f(x)(#) se obtiene el valor del parámetro
 button1 = Button(root, text="1",width=5, height=3, bg="lightblue", command=lambda:click(1))
 button2 = Button(root, text="2",width=5, height=3, bg="lightblue", command=lambda:click(2))
 button3 = Button(root, text="3",width=5, height=3, bg="lightblue", command=lambda:click(3))
@@ -56,8 +64,8 @@ button_suma = Button(root, text="+",width=5, height=3, bg="silver", command=lamb
 button_resta = Button(root, text="-",width=5, height=3, bg="silver", command=lambda:click("-"))
 button_igual = Button(root, text="=",width=5, height=3, bg="silver", command=lambda:calculo())
 
-####Aqui se colocan los botones
 
+#Posición de la botonera
 button_borrar.grid(row=1, column=0,padx=5, pady=5)
 button_parentesis1.grid(row=1, column=1,padx=5, pady=5)
 button_parentesis2.grid(row=1, column=2,padx=5, pady=5)
