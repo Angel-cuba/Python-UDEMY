@@ -1,5 +1,5 @@
 def generaPares(limite):
-    num = 1     
+    num = 0     
     miLista = []
     while num< limite:
               miLista.append(num*2)
@@ -16,4 +16,7 @@ def generaPares1(limite):
               yield num*2
               num = num+1
 retornaPares1 = generaPares1(10)
+print(next(retornaPares1))
+print(next(retornaPares1))
+print(next(retornaPares1))
 print(next(retornaPares1))
