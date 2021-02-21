@@ -1,0 +1,17 @@
+TODO-> Filter.py
+Acá se usa el método FILTER para hacer un filtro de una lista, de la cual hacemos una función 
+donde le ponemos una condición, en este caso, que solo me muestre los números que sean 
+mayores a 18(>= 18)[CONDICIÓN]
+
+TODO: Lambda.py
+Ejemplos del uso de Lambda, para bsucar un menor uso de recursos a la hora de escritura
+del código.
+
+TODO: Lambda.py
+Uso del método Lambda, para el ahorro de la escritura.
+
+FIXME: Generador.py___TODO: Generador1.py
+Dos maneras de generar una función.
+Debo profundizar en su uso.
+-->En el segundo ejemplo se hace uso del leer la preimera letra o leer, letra por letra,
+y sacandolo por pantalla.
